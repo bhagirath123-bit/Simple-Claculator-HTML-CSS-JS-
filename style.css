@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-align: border-box;
+
+}
+body{
+	min-height: 100vh;
+	background: rgb(0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+h1{
+	
+	text-align: center;
+	background-color:rgb(72, 61, 63);
+	padding: 6px;
+}
+.claculator{
+	width: 300px;
+	height: 500px;
+	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 12px ;
+	background: #8597a0;
+	overflow: hidden;
+}
+form input{
+	width: 90%;
+	height: 100px;
+	border: none;
+	border-radius: 0px 0px 12px 12px;
+	font-size: 2rem;
+	padding: 1rem;
+	color: #fff;
+	background: #847777;
+	text-align: right;
+	pointer-events: none;
+	
+}
+
+.buttons{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+
+}
+
+button{
+	flex: 0 0 22%;
+	margin: 5px 0;
+	border: 1ps solid #000;
+	width: 60px;
+	height: 52px;
+	font-size: 22px;
+	font-weight: 600;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn-yellow{
+	background: rgb(165, 39, 255);
+	color: #fff;
+
+}
+.btn-grey{
+	background: rgb(224, 224, 224);
+	
+
+}
+
+.btn-equal{
+	background: green;
+
+}
+.btn-equal:hover{
+	background: darkgreen;
+
+}
+.btn-clear{
+	background: red;
+}
+.btn-clear:hover{
+	background: white;
+}
+.btn-yellow:hover{
+	background: blueviolet;
+}
+.btn-grey:hover{
+	background: cyan;
+}
